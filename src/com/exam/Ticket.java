@@ -13,9 +13,6 @@ public class Ticket {
 		this.quantity = quantity;
 	}
 	
-	public Ticket() {
-		
-	}
 	
 	public void  print(){
 		System.out.println(origin+"\t"+destination+"\t"+price+"\t"+quantity+"\t"+price*quantity);
@@ -23,24 +20,6 @@ public class Ticket {
 	}
     
 	
-	/*public String met(){
-		String one = origin + destination;
-		return one;
-	}
 	
-	public int num() {
-		int number = price;
-		return number;
-	}
-	
-	public int numm() {
-		int number2 = quantity;
-		return number2;
-
-	}*/
-	public int allPrice() {
-		int allPrice = price*quantity;
-		return allPrice;
-	}
 
 }
